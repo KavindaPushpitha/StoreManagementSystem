@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import com.jfoenix.controls.JFXSpinner?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="723.0" prefWidth="991.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.gamage.stockmgt.controller.ManageCustomerController">
+   <children>
+      <Label layoutX="52.0" layoutY="16.0" text="Manage Customer" textFill="#22313f">
+         <font>
+            <Font name="Century Gothic" size="21.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtCustomerID" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="78.0" layoutY="154.0" prefHeight="26.0" prefWidth="137.0" promptText="Customer ID" />
+      <JFXTextField fx:id="txtFName" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="240.0" layoutY="154.0" onAction="#focusTOAddress" prefHeight="26.0" prefWidth="672.0" promptText="First Name" />
+      <JFXButton fx:id="btnUpdate" buttonType="RAISED" layoutX="687.0" layoutY="289.0" onAction="#enableTxtFilds" prefHeight="34.0" prefWidth="110.0" styleClass="bluebuttons" stylesheets="@../css/ForBlueButtons.css" text="Update" textFill="#e2e0e0">
+         <font>
+            <Font name="NEOTERIC" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnSave" buttonType="RAISED" layoutX="821.0" layoutY="289.0" onAction="#updateCustomer" prefHeight="34.0" prefWidth="110.0" styleClass="greenbuttons" stylesheets="@../css/ForBlueButtons.css" text="Save " textFill="#e8e5e5">
+         <font>
+            <Font name="NEOTERIC" size="14.0" />
+         </font>
+      </JFXButton>
+      <TableView fx:id="tblAllCustomers" layoutX="43.0" layoutY="362.0" onMouseClicked="#mouseClicked" prefHeight="266.0" prefWidth="907.0">
+         <columns>
+            <TableColumn prefWidth="93.60000610351562" text="Customer ID" />
+            <TableColumn prefWidth="227.2000274658203" text="Customer Name" />
+            <TableColumn prefWidth="116.0" text="Date of Birth" />
+            <TableColumn prefWidth="205.60006713867188" text="Address" />
+            <TableColumn minWidth="0.0" prefWidth="139.20001220703125" text="Contact" />
+            <TableColumn minWidth="0.0" prefWidth="123.199951171875" text="NIC" />
+         </columns>
+      </TableView>
+      <JFXTextField fx:id="txtAddress" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="76.0" layoutY="212.0" onAction="#focusToTeleNo" prefHeight="26.0" prefWidth="494.0" promptText="Address" />
+      <JFXTextField fx:id="txtTelephone" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="587.0" layoutY="212.0" onAction="#focusToNic" prefHeight="26.0" prefWidth="322.0" promptText="Telephone No" />
+      <JFXTextField fx:id="txtNIC" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="76.0" layoutY="269.0" onAction="#focusToDOB" prefHeight="26.0" prefWidth="270.0" promptText="NIC No" />
+      <JFXButton fx:id="btnDelete" buttonType="RAISED" layoutX="821.0" layoutY="660.0" onAction="#deleteCustomer" prefHeight="34.0" prefWidth="110.0" styleClass="bluebuttons" stylesheets="@../css/ForBlueButtons.css" text="Delete" textFill="#e2e0e0">
+         <font>
+            <Font name="NEOTERIC" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="txtDOB" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="369.0" layoutY="269.0" onAction="#onAction" prefHeight="26.0" prefWidth="270.0" promptText="Date of Birth" />
+      <JFXTextField fx:id="txtCustomerSearch" focusColor="#31bd3d" labelFloat="true" layoutX="77.0" layoutY="71.0" onAction="#searchCustomer" onKeyReleased="#keyRelesed" prefHeight="26.0" prefWidth="754.0" promptText="Search Customer" />
+      <JFXSpinner fx:id="spnSpinner" layoutX="849.0" layoutY="67.0" prefHeight="26.0" prefWidth="23.0" visible="false" />
+      <Label fx:id="lblNotify" layoutX="68.0" layoutY="316.0" textFill="#22313f">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font>
+      </Label>
+      <JFXRadioButton fx:id="rbtnCustomer" layoutX="230.0" layoutY="119.0" onAction="#byCustomerName" selected="true" text="By Customer Name" textOverrun="CLIP" />
+      <JFXRadioButton fx:id="rbtnNIC" layoutX="504.0" layoutY="119.0" onAction="#byNIC" text="By Customer NIC" textOverrun="CLIP" />
+   </children>
+</AnchorPane>

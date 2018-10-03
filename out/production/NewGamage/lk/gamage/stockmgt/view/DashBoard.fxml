@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="786.0" prefWidth="1066.0" style="-fx-background-color: white; -fx-background-radius: 30; -fx-border-radius: 30; -fx-border-width: 5;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.gamage.stockmgt.controller.DashBoardController">
+   <children>
+      <AnchorPane fx:id="dashRoot" layoutX="74.0" layoutY="39.0" prefHeight="723.0" prefWidth="991.0" style="-fx-background-color: white;">
+         <children>
+            <Pane layoutX="16.0" layoutY="260.0" prefHeight="450.0" prefWidth="966.0" style="-fx-background-color: white;">
+               <children>
+                  <Label fx:id="lblCustomerOrders" layoutX="47.0" layoutY="121.0" prefHeight="20.0" prefWidth="110.0" text="Customer Orders">
+                     <font>
+                        <Font name="Century Gothic" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblItemMgt" layoutX="188.0" layoutY="120.0" prefHeight="20.0" prefWidth="127.0" text="Item Management">
+                     <font>
+                        <Font name="Century Gothic" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblCustomerMgt" layoutX="360.0" layoutY="121.0" prefHeight="20.0" prefWidth="110.0" text="Customer Mgt">
+                     <font>
+                        <Font name="Century Gothic" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblSupplierOrders" layoutX="509.0" layoutY="121.0" prefHeight="20.0" prefWidth="110.0" text="Supplier Orders">
+                     <font>
+                        <Font name="Century Gothic" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblSupplierMgt" layoutX="661.0" layoutY="121.0" prefHeight="20.0" prefWidth="110.0" text="Supplier Mgt">
+                     <font>
+                        <Font name="Century Gothic" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblWarrantyMgt" layoutX="802.0" layoutY="121.0" prefHeight="20.0" prefWidth="110.0" text="Warranty Mgt">
+                     <font>
+                        <Font name="Century Gothic" size="13.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="btnDamageItems" fitHeight="78.0" fitWidth="89.0" layoutX="71.0" layoutY="188.0" onMouseClicked="#loadDamageItems" onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest/Recycling symbol_528px.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="lblDamageItems" layoutX="61.0" layoutY="266.0" prefHeight="20.0" prefWidth="110.0" text="Damage Items">
+                     <font>
+                        <Font name="Century Gothic" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblNewGRN" layoutX="220.0" layoutY="266.0" prefHeight="20.0" prefWidth="92.0" text="New GRNs">
+                     <font>
+                        <Font name="Century Gothic" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblViewGRN" layoutX="368.0" layoutY="266.0" prefHeight="20.0" prefWidth="74.0" text="View GRNs">
+                     <font>
+                        <Font name="Century Gothic" size="13.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="btnReports" fitHeight="78.0" fitWidth="89.0" layoutX="515.0" layoutY="188.0" onMouseClicked="#loadReports" onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest/Line Chart_528px.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="lblReports" layoutX="526.0" layoutY="266.0" prefHeight="20.0" prefWidth="50.0" text="Reports">
+                     <font>
+                        <Font name="Century Gothic" size="13.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="btnStockManagement" fitHeight="78.0" fitWidth="89.0" layoutX="664.0" layoutY="188.0" onMouseClicked="#loadStockManagement" onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest/Pricing Structure_528px.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="lblStockMgt" layoutX="671.0" layoutY="266.0" prefHeight="20.0" prefWidth="78.0" text="Stock Mgt">
+                     <font>
+                        <Font name="Century Gothic" size="13.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="btnReturnItems" fitHeight="78.0" fitWidth="89.0" layoutX="814.0" layoutY="188.0" onMouseClicked="#loadReturnItem" onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest/Return_528px.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="lblReturnItems" layoutX="807.0" layoutY="266.0" prefHeight="20.0" prefWidth="92.0" text="Retaurn Items">
+                     <font>
+                        <Font name="Century Gothic" size="13.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="btnItemMgt" fitHeight="78.0" fitWidth="78.0" layoutX="209.0" layoutY="45.0" onMouseClicked="#loadManageItem" onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest/Technology Items_528px.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="btnCustomerMgt" fitHeight="78.0" fitWidth="78.0" layoutX="365.0" layoutY="42.0" onMouseClicked="#loadMangeCustomer" onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest/Administrator Male_528px.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="btnSupplierOrders" fitHeight="78.0" fitWidth="78.0" layoutX="512.0" layoutY="46.0" onMouseClicked="#loadSupplierOrders" onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest/Buy_528px.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="btnSupplier" fitHeight="78.0" fitWidth="78.0" layoutX="661.0" layoutY="43.0" onMouseClicked="#loadSupplier" onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest/Coach_528px.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="btnWarrantyMgt" fitHeight="78.0" fitWidth="78.0" layoutX="804.0" layoutY="43.0" onMouseClicked="#loadWarrantyMgt" onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest/Details Pane_528px.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="btnNewGRN" fitHeight="78.0" fitWidth="78.0" layoutX="219.0" layoutY="188.0" onMouseClicked="#loadNewGRN" onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest/Edit Property_528px.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="btnViewGRN" fitHeight="78.0" fitWidth="78.0" layoutX="365.0" layoutY="188.0" onMouseClicked="#loadViewGRN" onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest/Visible_528px.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="btnStockBackDoor" fitHeight="78.0" fitWidth="89.0" layoutX="806.0" layoutY="336.0" onMouseClicked="#loadStockBackDoor" onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest/Garage Open_528px.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="lblReports1" layoutX="791.0" layoutY="412.0" prefHeight="20.0" prefWidth="110.0" text="Stock Back Door">
+                     <font>
+                        <Font name="Century Gothic" size="13.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="btnAccountMgt" fitHeight="78.0" fitWidth="89.0" layoutX="512.0" layoutY="336.0" onMouseClicked="#loadAccountMgt" onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest/Add User Male_528px.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="lblReports11" layoutX="509.0" layoutY="414.0" prefHeight="20.0" prefWidth="92.0" text="Account Mgt">
+                     <font>
+                        <Font name="Century Gothic" size="13.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="btnCustOrders" fitHeight="78.0" fitWidth="89.0" layoutX="61.0" layoutY="46.0" onMouseClicked="#loadCustomerOrders" onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest/Add Shopping Cart_528px.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="btnAuthorizeGRN" fitHeight="78.0" fitWidth="89.0" layoutX="372.0" layoutY="336.0" onMouseClicked="#loadAuthorizeGRN" onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest/In Progress_528px.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="lblReports1111" layoutX="366.0" layoutY="414.0" prefHeight="20.0" prefWidth="92.0" text="Authorize GRN">
+                     <font>
+                        <Font name="Century Gothic" size="13.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="btnViewSupplierOrders" fitHeight="78.0" fitWidth="89.0" layoutX="212.0" layoutY="336.0" onMouseClicked="#loadViewSupplierOrders" onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest/Shopping Cart Loaded_528px.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="lblReports11111" layoutX="187.0" layoutY="414.0" prefHeight="20.0" prefWidth="134.0" text="View Supplier Orders">
+                     <font>
+                        <Font name="Century Gothic" size="13.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="btnViewCustomerOrders" fitHeight="78.0" fitWidth="89.0" layoutX="63.0" layoutY="336.0" onMouseClicked="#loadViewCustomerOrders" onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest/Shopping Bag_528px.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="lblReports111" layoutX="27.0" layoutY="414.0" prefHeight="20.0" prefWidth="150.0" text="View Customer Orders">
+                     <font>
+                        <Font name="Century Gothic" size="13.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="btnAbout" fitHeight="78.0" fitWidth="89.0" layoutX="660.0" layoutY="336.0" onMouseClicked="#loadAbout" onMouseEntered="#mouseEntered" onMouseExited="#mouseExited" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest/Info_528px.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="lblReports112" layoutX="678.0" layoutY="412.0" prefHeight="20.0" prefWidth="41.0" text="About">
+                     <font>
+                        <Font name="Century Gothic" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane layoutX="16.0" layoutY="1.0" prefHeight="253.0" prefWidth="651.0" style="-fx-background-color: white;">
+               <children>
+                  <Label layoutY="33.0" text="Gamage Enterprises" textFill="#28265c">
+                     <font>
+                        <Font name="NEOTERIC Bold" size="47.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="btnBulb" fitHeight="41.0" fitWidth="50.0" layoutX="305.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest/Greentech_528px.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="663.0" layoutY="14.0" prefHeight="240.0" prefWidth="318.0" style="-fx-background-color: white;">
+               <children>
+                  <ImageView fitHeight="31.0" fitWidth="66.0" layoutX="77.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assest/About_528px.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="128.0" layoutY="20.0" prefHeight="20.0" prefWidth="110.0" text="Notifications">
+                     <font>
+                        <Font name="NEOTERIC Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblNewGRNNotification" layoutX="145.0" layoutY="83.0" />
+               </children></Pane>
+         </children>
+      </AnchorPane>
+      <Pane prefHeight="786.0" prefWidth="66.0" style="-fx-background-color: white; -fx-border-color: black;">
+         <children>
+            <ImageView fx:id="lblSideCustOrders" fitHeight="49.0" fitWidth="31.0" layoutX="18.0" layoutY="173.0" onMouseClicked="#loadCustOrdersForSide" onMouseEntered="#sideButtonsMouseEntered" onMouseExited="#sideButtonsMouseExited" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/Add Shopping Cart_512px_2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="btnSideSupOrder" fitHeight="31.0" fitWidth="31.0" layoutX="18.0" layoutY="369.0" onMouseClicked="#loadSupOrdersForSide" onMouseEntered="#sideButtonsMouseEntered" onMouseExited="#sideButtonsMouseExited" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/Buy_512px_1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="btnSideSupMgt" fitHeight="31.0" fitWidth="31.0" layoutX="18.0" layoutY="434.0" onMouseClicked="#loadSupMgtForSide" onMouseEntered="#sideButtonsMouseEntered" onMouseExited="#sideButtonsMouseExited" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/Coach_512px.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="btnSideCustMgt" fitHeight="31.0" fitWidth="38.0" layoutX="18.0" layoutY="301.0" onMouseClicked="#loadCustMgtForSide" onMouseEntered="#sideButtonsMouseEntered" onMouseExited="#sideButtonsMouseExited" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/Administrator Male_500px.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="btnLogOut" fitHeight="31.0" fitWidth="38.0" layoutX="18.0" layoutY="725.0" onMouseClicked="#logOut" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/Shutdown_528px.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="btnSideItemMgt" fitHeight="49.0" fitWidth="31.0" layoutX="18.0" layoutY="237.0" onMouseClicked="#loadItemMgtForSide" onMouseEntered="#sideButtonsMouseEntered" onMouseExited="#sideButtonsMouseExited" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/Laptop_512px_1.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="btnSideWarrantyMgt" fitHeight="31.0" fitWidth="31.0" layoutX="18.0" layoutY="498.0" onMouseClicked="#loadWarrantyMgtForSide" onMouseEntered="#sideButtonsMouseEntered" onMouseExited="#sideButtonsMouseExited" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/Document_512px.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="btnSideDamageItem" fitHeight="31.0" fitWidth="31.0" layoutX="18.0" layoutY="564.0" onMouseClicked="#loadDamageItemForSide" onMouseEntered="#sideButtonsMouseEntered" onMouseExited="#sideButtonsMouseExited" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/Recycling symbol_500px.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="btnSideNewGRN" fitHeight="31.0" fitWidth="31.0" layoutX="18.0" layoutY="626.0" onMouseClicked="#loadNewGRNForSide" onMouseEntered="#sideButtonsMouseEntered" onMouseExited="#sideButtonsMouseExited" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/Create New_512px.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="btnHome" fitHeight="31.0" fitWidth="31.0" layoutX="20.0" layoutY="105.0" onMouseClicked="#loadDashBoard" onMouseEntered="#sideButtonsMouseEntered" onMouseExited="#sideButtonsMouseExited" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/Home_512px.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
+      <ImageView fx:id="btnDashMini" fitHeight="31.0" fitWidth="31.0" layoutX="983.0" layoutY="7.0" onMouseClicked="#minimizeDashBoard" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assest/Minimize Window_528px.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="btnDashClose" fitHeight="31.0" fitWidth="31.0" layoutX="1021.0" layoutY="7.0" onMouseClicked="#closeDashBoard" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assest/Close Window_528px.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblDate" layoutX="667.0" layoutY="7.0" text="Date" textFill="#28265c">
+         <font>
+            <Font name="Century Gothic" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblTime" layoutX="855.0" layoutY="8.0" text="Time" textFill="#28265c">
+         <font>
+            <Font name="Century Gothic" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

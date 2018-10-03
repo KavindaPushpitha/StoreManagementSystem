@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_newgamage" default="compile.module.newgamage">
+  <dirname property="module.newgamage.basedir" file="${ant.file.module_newgamage}"/>
+  
+  <property name="module.jdk.home.newgamage" value="${jdk.home.1.8}"/>
+  <property name="module.jdk.bin.newgamage" value="${jdk.bin.1.8}"/>
+  <property name="module.jdk.classpath.newgamage" value="jdk.classpath.1.8"/>
+  
+  <property name="compiler.args.newgamage" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="newgamage.output.dir" value="${module.newgamage.basedir}/out/production/NewGamage"/>
+  <property name="newgamage.testoutput.dir" value="${module.newgamage.basedir}/out/test/NewGamage"/>
+  
+  <path id="newgamage.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="newgamage.module.production.classpath">
+    <path refid="${module.jdk.classpath.newgamage}"/>
+    <pathelement location="D:/JAVA Class/jfoenix.jar"/>
+    <pathelement location="D:/JAVA Class/MySQLDriver/mysql-connector-java-5.1.23-bin.jar"/>
+    <pathelement location="C:/Users/acer/Downloads/controlsfx-8.40.9.jar"/>
+  </path>
+  
+  <path id="newgamage.runtime.production.module.classpath">
+    <pathelement location="${newgamage.output.dir}"/>
+    <pathelement location="D:/JAVA Class/jfoenix.jar"/>
+    <pathelement location="D:/JAVA Class/MySQLDriver/mysql-connector-java-5.1.23-bin.jar"/>
+    <pathelement location="C:/Users/acer/Downloads/controlsfx-8.40.9.jar"/>
+  </path>
+  
+  <path id="newgamage.module.classpath">
+    <path refid="${module.jdk.classpath.newgamage}"/>
+    <pathelement location="${newgamage.output.dir}"/>
+    <pathelement location="D:/JAVA Class/jfoenix.jar"/>
+    <pathelement location="D:/JAVA Class/MySQLDriver/mysql-connector-java-5.1.23-bin.jar"/>
+    <pathelement location="C:/Users/acer/Downloads/controlsfx-8.40.9.jar"/>
+  </path>
+  
+  <path id="newgamage.runtime.module.classpath">
+    <pathelement location="${newgamage.testoutput.dir}"/>
+    <pathelement location="${newgamage.output.dir}"/>
+    <pathelement location="D:/JAVA Class/jfoenix.jar"/>
+    <pathelement location="D:/JAVA Class/MySQLDriver/mysql-connector-java-5.1.23-bin.jar"/>
+    <pathelement location="C:/Users/acer/Downloads/controlsfx-8.40.9.jar"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.newgamage">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.newgamage">
+    <patternset refid="excluded.from.module.newgamage"/>
+  </patternset>
+  
+  <path id="newgamage.module.sourcepath">
+    <dirset dir="${module.newgamage.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.newgamage" depends="compile.module.newgamage.production,compile.module.newgamage.tests" description="Compile module NewGamage"/>
+  
+  <target name="compile.module.newgamage.production" depends="register.custom.compilers" description="Compile module NewGamage; production classes">
+    <mkdir dir="${newgamage.output.dir}"/>
+    <javac2 destdir="${newgamage.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.newgamage}/javac">
+      <compilerarg line="${compiler.args.newgamage}"/>
+      <bootclasspath refid="newgamage.module.bootclasspath"/>
+      <classpath refid="newgamage.module.production.classpath"/>
+      <src refid="newgamage.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.newgamage"/>
+    </javac2>
+    
+    <copy todir="${newgamage.output.dir}">
+      <fileset dir="${module.newgamage.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.newgamage.tests" depends="register.custom.compilers,compile.module.newgamage.production" description="compile module NewGamage; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.newgamage" description="cleanup module">
+    <delete dir="${newgamage.output.dir}"/>
+    <delete dir="${newgamage.testoutput.dir}"/>
+  </target>
+</project>

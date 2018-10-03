@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="239.0" prefWidth="565.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.gamage.stockmgt.controller.AboutController">
+   <children>
+      <Label layoutX="145.0" layoutY="79.0" text="First Semester project" textFill="#28265c">
+         <font>
+            <Font name="NEOTERIC Bold" size="29.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="65.0" fitWidth="288.0" layoutX="157.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assest/ijse-logo.gif" />
+         </image>
+      </ImageView>
+      <Label layoutX="144.0" layoutY="120.0" text="Kavinda Pushpitha Thambiliyagoda" textFill="#28265c">
+         <font>
+            <Font name="NEOTERIC Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="219.0" layoutY="148.0" text="GDSE FortySix" textFill="#28265c">
+         <font>
+            <Font name="NEOTERIC Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="206.0" layoutY="174.0" text="Index Twentythree" textFill="#28265c">
+         <font>
+            <Font name="NEOTERIC Bold" size="19.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="btnClose" fitHeight="22.0" fitWidth="19.0" layoutX="543.0" layoutY="2.0" onMouseClicked="#closeAbout" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assest/Cancel_500px.png" />
+         </image>
+      </ImageView>
+      <Hyperlink fx:id="hpLink" layoutX="225.0" layoutY="200.0" onAction="#hyper" text="http://www.ijse.lk/" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="723.0" prefWidth="991.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.gamage.stockmgt.controller.AddNewGRNController">
+   <children>
+      <Label layoutX="39.0" layoutY="21.0" text="Add New GRN" textFill="#22313f">
+         <font>
+            <Font name="Century Gothic" size="21.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="btnAdd" layoutX="828.0" layoutY="240.0" onAction="#addToTable" prefHeight="34.0" prefWidth="103.0" styleClass="greenbuttons" stylesheets="@../css/ForBlueButtons.css" text="Add To Table" textFill="#fffbfb">
+         <font>
+            <Font name="NEOTERIC" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="txtGRNID" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="62.0" layoutY="80.0" prefHeight="26.0" prefWidth="138.0" promptText="GRN ID" />
+      <JFXTextField fx:id="txtGRNDate" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="228.0" layoutY="80.0" prefHeight="26.0" prefWidth="286.0" promptText="GRN Date" />
+      <JFXTextField fx:id="txtSupplierOrderID" focusColor="#31bd3d" labelFloat="true" layoutX="540.0" layoutY="80.0" onAction="#focusToItemName" prefHeight="26.0" prefWidth="176.0" promptText="Supplier Order ID" />
+      <JFXTextField fx:id="txtStockID" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="738.0" layoutY="80.0" onAction="#focusToQty" prefHeight="26.0" prefWidth="176.0" promptText="Stock ID" />
+      <JFXTextField fx:id="txtItemCode" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="62.0" layoutY="136.0" prefHeight="26.0" prefWidth="138.0" promptText="Item Code" />
+      <JFXTextField fx:id="txtItemName" focusColor="#31bd3d" labelFloat="true" layoutX="228.0" layoutY="136.0" onAction="#searchItems" prefHeight="26.0" prefWidth="493.0" promptText="Item Name" />
+      <JFXTextField fx:id="txtModelNo" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="738.0" layoutY="136.0" prefHeight="26.0" prefWidth="176.0" promptText="Model No" />
+      <JFXTextField fx:id="txtQty" focusColor="#31bd3d" labelFloat="true" layoutX="228.0" layoutY="189.0" onAction="#focusToBuyingPrice" prefHeight="26.0" prefWidth="138.0" promptText="Qty" />
+      <JFXTextField fx:id="txtSellingPrice" focusColor="#31bd3d" labelFloat="true" layoutX="688.0" layoutY="189.0" onAction="#createStock" prefHeight="26.0" prefWidth="225.0" promptText="Selling Price" />
+      <TableView fx:id="tblGRN" layoutX="47.0" layoutY="294.0" prefHeight="281.0" prefWidth="892.0">
+         <columns>
+            <TableColumn prefWidth="93.60000610351562" text="Stock ID" />
+            <TableColumn prefWidth="89.59994506835938" text="Item Code" />
+            <TableColumn prefWidth="274.4000244140625" text="Item Name" />
+            <TableColumn prefWidth="149.59994506835938" text="Buying Price" />
+            <TableColumn prefWidth="134.39990234375" text="Qty" />
+            <TableColumn minWidth="0.0" prefWidth="151.2000732421875" text="Amount" />
+         </columns>
+      </TableView>
+      <JFXTextField fx:id="txtBrand" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="62.0" layoutY="189.0" prefHeight="26.0" prefWidth="138.0" promptText="Brand" />
+      <JFXButton fx:id="btnAddForAuthorize" layoutX="787.0" layoutY="665.0" onAction="#addForAuthorize" prefHeight="34.0" prefWidth="150.0" styleClass="greenbuttons" stylesheets="@../css/ForBlueButtons.css" text="Add for Authorization" textFill="#fffbfb">
+         <font>
+            <Font name="NEOTERIC" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnDeleteRow" layoutX="54.0" layoutY="665.0" onAction="#deleteRow" prefHeight="34.0" prefWidth="103.0" styleClass="bluebuttons" stylesheets="@../css/ForBlueButtons.css" text="Delete" textFill="#fffbfb">
+         <font>
+            <Font name="NEOTERIC" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="txtTotal" focusColor="#31bd3d" layoutX="767.0" layoutY="606.0" prefHeight="26.0" prefWidth="176.0" />
+      <Label layoutX="694.0" layoutY="611.0" prefHeight="26.0" prefWidth="59.0" text="Total">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtBuying" focusColor="#31bd3d" labelFloat="true" layoutX="400.0" layoutY="189.0" onAction="#focusToSellingPrice" prefHeight="26.0" prefWidth="266.0" promptText="Buying Price" />
+      <Label fx:id="lblDouble" layoutX="70.0" layoutY="598.0" text="Please double check the GRN and authorized it from Authorize GRN window !." textFill="#22313f" visible="false">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgNotiyfy" fitHeight="15.0" fitWidth="17.0" layoutX="47.0" layoutY="598.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../assest/About_528px.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="80.0" layoutY="257.0" text="Remeber if you want to add new GRN to the system you should have relevent supplier order for that" textFill="#22313f">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="15.0" fitWidth="17.0" layoutX="57.0" layoutY="257.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assest/About_528px.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblNotify" layoutX="65.0" layoutY="624.0" textFill="#22313f">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

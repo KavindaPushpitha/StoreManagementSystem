@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="rootPane" prefHeight="509.0" prefWidth="437.0" style="-fx-background-color: white; -fx-background-radius: 2em;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.gamage.stockmgt.controller.LoginController">
+   <children>
+      <JFXTextField fx:id="txtUserName" focusColor="#37b16c" labelFloat="true" layoutX="83.0" layoutY="193.0" onAction="#focusTOPassword" prefHeight="34.0" prefWidth="310.0" promptText="Enter User Name" />
+      <JFXPasswordField fx:id="txtPassword" focusColor="#37b16c" labelFloat="true" layoutX="83.0" layoutY="277.0" onAction="#viewDashboard" prefHeight="34.0" prefWidth="310.0" promptText="Enter Password" />
+      <JFXButton fx:id="btnClose" layoutX="102.0" layoutY="381.0" onMouseClicked="#closeLogin" prefHeight="34.0" prefWidth="100.0" style="-fx-background-radius: 5em; -fx-border-color: green; -fx-border-radius: 5em;" text="Cancel" textAlignment="CENTER" textFill="#1a9c27" />
+      <Label layoutX="104.0" layoutY="435.0" prefHeight="34.0" prefWidth="274.0" text="Gamage Enterprises" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic" size="27.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgLock" fitHeight="110.0" fitWidth="117.0" layoutX="167.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assest/Lock_528px_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="42.0" layoutX="28.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assest/Person Male_528px.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="34.0" fitWidth="42.0" layoutX="28.0" layoutY="277.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assest/Key 2_528px.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="btnLogin" layoutX="236.0" layoutY="381.0" onAction="#viewDashboard" prefHeight="34.0" prefWidth="100.0" style="-fx-background-radius: 5em; -fx-border-color: green; -fx-border-radius: 5em;" text="Login" textAlignment="CENTER" textFill="#1a9c27" />
+      <Label fx:id="lblInvalidPasswordOrUser" layoutX="116.0" layoutY="337.0" text="Invalid User Name or Password !" textFill="#fa0202" visible="false" />
+      <Label fx:id="lblCreate" layoutX="161.0" layoutY="469.0" onMouseClicked="#loadCreateAccount" text="Create New Account !" textFill="#180d79" visible="false" />
+   </children>
+</AnchorPane>

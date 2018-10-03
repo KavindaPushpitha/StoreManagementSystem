@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="NewGamage">
+    <output-path>$PROJECT_DIR$/out/artifacts/NewGamage</output-path>
+    <root id="root">
+      <element id="archive" name="NewGamage.jar">
+        <element id="module-output" name="NewGamage" />
+      </element>
+      <element id="file-copy" path="D:/JAVA Class/jfoenix.jar" />
+      <element id="file-copy" path="D:/JAVA Class/New folder (2)/com.lowagie.text-2.1.7.jar" />
+      <element id="file-copy" path="D:/JAVA Class/New folder (2)/commons-beanutils-1.8.3.jar" />
+      <element id="file-copy" path="D:/JAVA Class/New folder (2)/commons-digester-2.1.jar" />
+      <element id="file-copy" path="D:/JAVA Class/New folder (2)/itextpdf-5.3.4.jar" />
+      <element id="file-copy" path="D:/JAVA Class/New folder (2)/jasperreports-6.4.3.jar" />
+      <element id="file-copy" path="D:/JAVA Class/New folder (2)/jasperreports-javaflow-6.4.3.jar" />
+      <element id="file-copy" path="D:/JAVA Class/New folder (2)/jcommon-1.0.8.jar" />
+      <element id="file-copy" path="D:/JAVA Class/New folder (2)/jfreechart-1.0.13.jar" />
+      <element id="file-copy" path="D:/JAVA Class/New folder (2)/org-apache-commons-logging.jar" />
+      <element id="file-copy" path="D:/JAVA Class/New folder (2)/org.apache.commons.collections.jar" />
+      <element id="file-copy" path="D:/JAVA Class/MySQLDriver/mysql-connector-java-5.1.23-bin.jar" />
+      <element id="file-copy" path="$USER_HOME$/Downloads/controlsfx-8.40.9.jar" />
+    </root>
+  </artifact>
+</component>

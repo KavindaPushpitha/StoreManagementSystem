@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXSpinner?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="723.0" prefWidth="991.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.gamage.stockmgt.controller.ViewSupplierOrderController">
+   <children>
+      <Label layoutX="59.0" layoutY="34.0" text="View Supplier Orders" textFill="#22313f">
+         <font>
+            <Font name="Century Gothic" size="21.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtSearchSupplier" focusColor="#31bd3d" labelFloat="true" layoutX="58.0" layoutY="80.0" onAction="#searchSupplier" prefHeight="26.0" prefWidth="820.0" promptText="Search Supplier" />
+      <JFXButton layoutX="811.0" layoutY="674.0" prefHeight="34.0" prefWidth="110.0" styleClass="greenbuttons" stylesheets="@../css/ForBlueButtons.css" text="Print" textFill="#e2e0e0">
+         <font>
+            <Font name="NEOTERIC" size="14.0" />
+         </font>
+      </JFXButton>
+      <TableView fx:id="tblSupplierOrders" layoutX="60.0" layoutY="318.0" prefHeight="338.0" prefWidth="874.0">
+         <columns>
+            <TableColumn prefWidth="83.99999237060547" text="Item Code" />
+            <TableColumn prefWidth="215.19998168945312" text="Item Name" />
+            <TableColumn prefWidth="108.00006103515625" text="Brand" />
+            <TableColumn prefWidth="124.80001831054688" text="Model No" />
+            <TableColumn prefWidth="111.20001220703125" text=" Order ID" />
+            <TableColumn prefWidth="124.0" text="Order Date" />
+            <TableColumn prefWidth="112.0" text="Order Qty" />
+         </columns>
+      </TableView>
+      <JFXTextField fx:id="txtSupplierID" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="59.0" layoutY="138.0" prefHeight="26.0" prefWidth="174.0" promptText="Supplier ID" />
+      <JFXTextField fx:id="txtSupplierName" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="256.0" layoutY="138.0" prefHeight="26.0" prefWidth="347.0" promptText="Supplier Name" />
+      <JFXTextField fx:id="txtSupplierAddresss" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="620.0" layoutY="138.0" prefHeight="26.0" prefWidth="315.0" promptText="Supplier Address" />
+      <JFXTextField fx:id="txtSupplierTelephone" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="58.0" layoutY="196.0" prefHeight="26.0" prefWidth="252.0" promptText="Supplier Telephone" />
+      <JFXTextField fx:id="txtCompanyName" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="331.0" layoutY="196.0" prefHeight="26.0" prefWidth="277.0" promptText="Company Name" />
+      <JFXTextField fx:id="txtCompanyAddress" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="620.0" layoutY="196.0" prefHeight="26.0" prefWidth="315.0" promptText="Company Address" />
+      <JFXTextField fx:id="txtCompanyTelephone" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="58.0" layoutY="258.0" prefHeight="26.0" prefWidth="252.0" promptText="Company Telephone" />
+      <JFXSpinner layoutX="878.0" layoutY="74.0" prefHeight="27.0" prefWidth="28.0" />
+   </children>
+</AnchorPane>

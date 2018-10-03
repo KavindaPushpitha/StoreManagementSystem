@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="dashRoot" prefHeight="723.0" prefWidth="991.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.gamage.stockmgt.controller.AuthorizeGRNController">
+   <children>
+      <Label layoutX="48.0" layoutY="33.0" text="Authorize GRN" textFill="#22313f">
+         <font>
+            <Font name="Century Gothic" size="21.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="btnSave" buttonType="RAISED" layoutX="818.0" layoutY="256.0" onAction="#saveChanges" prefHeight="34.0" prefWidth="103.0" styleClass="greenbuttons" stylesheets="@../css/ForBlueButtons.css" text="Save" textFill="#fffbfb">
+         <font>
+            <Font name="NEOTERIC" size="12.0" />
+         </font>
+      </JFXButton>
+      <TableView fx:id="tblGRN" layoutX="58.0" layoutY="307.0" onMouseClicked="#onMouseClick" prefHeight="281.0" prefWidth="874.0">
+         <columns>
+            <TableColumn prefWidth="93.59998321533203" text="Stock ID" />
+            <TableColumn prefWidth="104.79995727539062" text="ItemCode" />
+            <TableColumn prefWidth="227.20001220703125" text="Item Name" />
+            <TableColumn prefWidth="119.99996948242188" text="Brand" />
+            <TableColumn minWidth="6.39990234375" prefWidth="101.60003662109375" text="Model No" />
+            <TableColumn prefWidth="75.199951171875" text="Qty" />
+            <TableColumn prefWidth="156.800048828125" text="Buying Price" />
+         </columns>
+      </TableView>
+      <JFXTextField fx:id="txtGRNID" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="70.0" layoutY="95.0" prefHeight="26.0" prefWidth="138.0" promptText="GRN ID" />
+      <JFXTextField fx:id="txtGRNDate" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="236.0" layoutY="95.0" prefHeight="26.0" prefWidth="286.0" promptText="GRN Date" />
+      <JFXTextField fx:id="txtSupplierOrderID" focusColor="#31bd3d" labelFloat="true" layoutX="548.0" layoutY="95.0" onAction="#focusToItemName" prefHeight="26.0" prefWidth="176.0" promptText="Supplier Order ID" />
+      <JFXTextField fx:id="txtStatus" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="746.0" layoutY="95.0" prefHeight="26.0" prefWidth="176.0" promptText="Status" />
+      <JFXTextField fx:id="txtItemCode" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="70.0" layoutY="151.0" prefHeight="26.0" prefWidth="138.0" promptText="Item Code" />
+      <JFXTextField fx:id="txtItemName" focusColor="#31bd3d" labelFloat="true" layoutX="236.0" layoutY="151.0" onAction="#searchItem" prefHeight="26.0" prefWidth="493.0" promptText="Item Name" />
+      <JFXTextField fx:id="txtModelNo" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="746.0" layoutY="151.0" prefHeight="26.0" prefWidth="176.0" promptText="Model No" />
+      <JFXTextField fx:id="txtQty" focusColor="#31bd3d" labelFloat="true" layoutX="236.0" layoutY="204.0" onAction="#focusToBuyingprice" prefHeight="26.0" prefWidth="202.0" promptText="Qty" />
+      <JFXTextField fx:id="txtBuyingPrice" focusColor="#31bd3d" labelFloat="true" layoutX="459.0" layoutY="204.0" onAction="#saveChanges" prefHeight="26.0" prefWidth="270.0" promptText="Buying Price" />
+      <JFXTextField fx:id="txtBrand" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="70.0" layoutY="204.0" prefHeight="26.0" prefWidth="138.0" promptText="Brand" />
+      <JFXButton fx:id="btnDelete" buttonType="RAISED" layoutX="57.0" layoutY="674.0" onAction="#delete" prefHeight="34.0" prefWidth="103.0" styleClass="bluebuttons" stylesheets="@../css/ForBlueButtons.css" text="Delete" textFill="#fffbfb">
+         <font>
+            <Font name="NEOTERIC" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnAuthorize" buttonType="RAISED" layoutX="724.0" layoutY="667.0" onAction="#authorizeGRN" prefHeight="34.0" prefWidth="209.0" styleClass="greenbuttons" stylesheets="@../css/ForBlueButtons.css" text="Authorize GRN" textFill="#fffbfb">
+         <font>
+            <Font name="NEOTERIC" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="txtTotal" focusColor="#31bd3d" layoutX="758.0" layoutY="617.0" prefHeight="26.0" prefWidth="176.0" />
+      <Label layoutX="685.0" layoutY="622.0" prefHeight="26.0" prefWidth="59.0" text="Total">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtStockID" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="746.0" layoutY="204.0" prefHeight="26.0" prefWidth="176.0" promptText="Stock ID" />
+      <Label fx:id="lblNotify" layoutX="70.0" layoutY="265.0" textFill="#22313f">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

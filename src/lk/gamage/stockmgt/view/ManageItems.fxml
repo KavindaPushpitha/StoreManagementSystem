@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXSpinner?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="723.0" prefWidth="991.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.gamage.stockmgt.controller.ManageItemController">
+   <children>
+      <Label layoutX="52.0" layoutY="27.0" text="Manage Items" textFill="#22313f">
+         <font>
+            <Font name="Century Gothic" size="21.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtSearchItem" focusColor="#31bd3d" labelFloat="true" layoutX="72.0" layoutY="93.0" onAction="#SearchItems" onKeyReleased="#onKeyRelese" prefHeight="26.0" prefWidth="687.0" promptText="Search Item" />
+      <JFXButton fx:id="btnAddNewItem" buttonType="RAISED" layoutX="842.0" layoutY="89.0" onAction="#addNewItem" prefHeight="34.0" prefWidth="103.0" styleClass="greenbuttons" stylesheets="@../css/ForBlueButtons.css" text="Add New Item" textFill="#fffbfb">
+         <font>
+            <Font name="NEOTERIC" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="txtItemCode" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="72.0" layoutY="162.0" onAction="#changeFocusToItemName" prefHeight="26.0" prefWidth="148.0" promptText="Item Code" />
+      <JFXTextField fx:id="txtItemName" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="233.0" layoutY="162.0" onAction="#changeFocusToBrand" prefHeight="26.0" prefWidth="514.0" promptText="Item Name" />
+      <JFXTextField fx:id="txtBrand" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="770.0" layoutY="162.0" onAction="#changeFocusToModelNo" prefHeight="26.0" prefWidth="156.0" promptText="Brand" />
+      <JFXTextField fx:id="txtModelNo" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="72.0" layoutY="219.0" onAction="#onAction" prefHeight="26.0" prefWidth="156.0" promptText="Model No" />
+      <JFXButton fx:id="btnSave" buttonType="RAISED" layoutX="842.0" layoutY="257.0" onAction="#saveItem" prefHeight="34.0" prefWidth="103.0" styleClass="greenbuttons" stylesheets="@../css/ForBlueButtons.css" text="Save" textFill="#fffbfb">
+         <font>
+            <Font name="NEOTERIC" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnUpdate" buttonType="RAISED" layoutX="703.0" layoutY="257.0" onAction="#updateItem" prefHeight="34.0" prefWidth="110.0" styleClass="bluebuttons" stylesheets="@../css/ForBlueButtons.css" text="Update" textFill="#e2e0e0">
+         <font>
+            <Font name="NEOTERIC" size="14.0" />
+         </font>
+      </JFXButton>
+      <TableView fx:id="tblAllItem" layoutX="62.0" layoutY="330.0" onMouseClicked="#mouseClicked" prefHeight="283.0" prefWidth="870.0">
+         <columns>
+            <TableColumn prefWidth="95.19998168945312" text="Item Code" />
+            <TableColumn prefWidth="371.2000274658203" text="Item Name" />
+            <TableColumn minWidth="0.0" prefWidth="242.4000244140625" text="Brand" />
+            <TableColumn minWidth="0.0" prefWidth="146.40008544921875" text="Model No" />
+         </columns>
+      </TableView>
+      <JFXButton fx:id="btnDelete" buttonType="RAISED" layoutX="839.0" layoutY="652.0" onAction="#deleteItem" prefHeight="34.0" prefWidth="110.0" styleClass="bluebuttons" stylesheets="@../css/ForBlueButtons.css" text="Delete" textFill="#e2e0e0">
+         <font>
+            <Font name="NEOTERIC" size="14.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="lblNotify" layoutX="80.0" layoutY="283.0" textFill="#22313f">
+         <font>
+            <Font name="Century Gothic" size="13.0" />
+         </font>
+      </Label>
+      <JFXSpinner fx:id="spnSpinner" layoutX="770.0" layoutY="86.0" prefHeight="26.0" prefWidth="26.0" visible="false" />
+   </children>
+</AnchorPane>

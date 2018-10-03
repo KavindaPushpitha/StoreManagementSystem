@@ -1,0 +1,58 @@
+.bluebuttons {
+    -fx-font-weight: lighter;
+    -fx-background-color: blue;
+    -fx-background-radius: 22;
+    -fx-font-size: 13;
+    -fx-text-fill: white;
+}
+
+.bluebuttons:hover {
+    -fx-font-weight: lighter;
+    -fx-background-color: white;
+    -fx-background-radius: 22;
+    -fx-font-size: 13;
+    -fx-text-fill: blue;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+}
+
+.bluebuttons:pressed {
+    -fx-font-weight: lighter;
+    -fx-background-radius: 22;
+    -fx-font-size: 13;
+    -fx-text-fill: blue;
+    -fx-border-color: blue;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+    -fx-rotate: 2;
+}
+
+.greenbuttons {
+    -fx-font-weight: lighter;
+    -fx-background-color: green;
+    -fx-background-radius: 22;
+    -fx-font-size: 13;
+    -fx-text-fill: white;
+}
+
+.greenbuttons:hover {
+    -fx-font-weight: lighter;
+    -fx-background-color: white;
+    -fx-background-radius: 22;
+    -fx-font-size: 13;
+    -fx-text-fill: green;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+}
+
+.greenbuttons:pressed {
+    -fx-font-weight: lighter;
+    -fx-background-radius: 22;
+    -fx-font-size: 13;
+    -fx-text-fill: green;
+    -fx-border-color: green;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+    -fx-rotate: 2;
+
+}
