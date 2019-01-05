@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class CustomerOrdersDAOImpl implements CustomerOrdersDAO {
     @Override
     public boolean save(CustomerOrders entity) throws Exception {
-        return CrudUtil.executeUpdate("INSERT INTO customerOrders VALUES(?,?,?,?) ", entity.getOrderID(), entity.getCustomerID(), entity.getOrderDate(), entity.getCustomerPayment()) > 0;
+        return CrudUtil.executeUpdate("INSERT INTO CustomerOrders VALUES(?,?,?,?) ", entity.getOrderID(), entity.getCustomerID(), entity.getOrderDate(), entity.getCustomerPayment()) > 0;
     }
 
     @Override
@@ -30,7 +30,7 @@ public class CustomerOrdersDAOImpl implements CustomerOrdersDAO {
 
     @Override
     public ArrayList<CustomerOrders> getAll() throws Exception {
-        ResultSet rst = CrudUtil.executeQuery("Select * from customerOrders");
+        ResultSet rst = CrudUtil.executeQuery("Select * from CustomerOrders");
         ArrayList<CustomerOrders> customerOrders = new ArrayList<>();
         while (rst.next()) {
             customerOrders.add(new CustomerOrders(rst.getString(1), rst.getString(2), rst.getString(3), rst.getDouble(4)));

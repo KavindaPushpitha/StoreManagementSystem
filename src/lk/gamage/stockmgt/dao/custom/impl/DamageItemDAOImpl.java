@@ -10,17 +10,17 @@ import java.util.ArrayList;
 public class DamageItemDAOImpl implements DamageItemDAO {
     @Override
     public boolean save(DamageItem entity) throws Exception {
-        return CrudUtil.executeUpdate("Insert into damageItem values(?,?,?,?,?,?) ", entity.getDamageID(), entity.getItemCode(), entity.getFault(), entity.getDamageType(), entity.getDamageDate(), entity.getOrderID()) > 0;
+        return CrudUtil.executeUpdate("Insert into DamageItem values(?,?,?,?,?,?) ", entity.getDamageID(), entity.getItemCode(), entity.getFault(), entity.getDamageType(), entity.getDamageDate(), entity.getOrderID()) > 0;
     }
 
     @Override
     public boolean update(DamageItem entity) throws Exception {
-        return CrudUtil.executeUpdate("Update damageItem set itemCode=?,fault=?,damageType=?,damageDate=?,orderID=? where damageID=? ", entity.getItemCode(), entity.getFault(), entity.getDamageType(), entity.getDamageDate(), entity.getOrderID(), entity.getDamageID()) > 0;
+        return CrudUtil.executeUpdate("Update DamageItem set itemCode=?,fault=?,damageType=?,damageDate=?,orderID=? where damageID=? ", entity.getItemCode(), entity.getFault(), entity.getDamageType(), entity.getDamageDate(), entity.getOrderID(), entity.getDamageID()) > 0;
     }
 
     @Override
     public boolean delete(String s) throws Exception {
-        return CrudUtil.executeUpdate("Delete from damageItem where damageID=? ", s) > 0;
+        return CrudUtil.executeUpdate("Delete from DamageItem where damageID=? ", s) > 0;
     }
 
     @Override

@@ -234,7 +234,7 @@ public class WarrantyManageController implements Initializable {
             a.show();
         } else {
             if (Validation.orderQty(txtPeriod.getText())) {
-                txtWarrantyTo.setText(LocalDate.parse(txtWarrantyFrom.getText()).plusMonths(Long.parseLong(txtPeriod.getText())).toString());
+//                txtWarrantyTo.setText(LocalDate.parse(txtWarrantyFrom.getText()).plusMonths(Long.parseLong(txtPeriod.getText())).toString());
                 WarrantyDTO warrantyDTO = new WarrantyDTO(txtWarrantyID.getText(), txtPeriod.getText(), txtWarrantyFrom.getText(), txtWarrantyTo.getText());
                 lblNotify.setText("");
                 try {

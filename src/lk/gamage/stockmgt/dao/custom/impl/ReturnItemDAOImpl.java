@@ -19,7 +19,7 @@ public class ReturnItemDAOImpl implements ReturnItemDAO {
 
     @Override
     public boolean delete(String s) throws Exception {
-        return CrudUtil.executeUpdate("Delete from returnItem where returnID=? ", s) > 0;
+        return CrudUtil.executeUpdate("Delete from ReturnItem where returnID=? ", s) > 0;
     }
 
     @Override

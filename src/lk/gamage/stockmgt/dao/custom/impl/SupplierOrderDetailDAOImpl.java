@@ -12,7 +12,7 @@ public class SupplierOrderDetailDAOImpl implements SupplierOrderDetailDAO {
 
     @Override
     public boolean save(SupplierOrderDetail supplierOrderDetail) throws Exception {
-        return CrudUtil.executeUpdate("INSERT INTO SUPPLIERORDERDETAIL VALUES(?,?,?) ", supplierOrderDetail.getSupplierOrderDetail_pk().getSupplierOrderID(), supplierOrderDetail.getSupplierOrderDetail_pk().getItemCode(), supplierOrderDetail.getQty()) > 0;
+        return CrudUtil.executeUpdate("INSERT INTO SupplierOrderDetail VALUES(?,?,?) ", supplierOrderDetail.getSupplierOrderDetail_pk().getSupplierOrderID(), supplierOrderDetail.getSupplierOrderDetail_pk().getItemCode(), supplierOrderDetail.getQty()) > 0;
     }
 
     @Override

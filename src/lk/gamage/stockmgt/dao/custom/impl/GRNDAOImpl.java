@@ -15,12 +15,12 @@ public class GRNDAOImpl implements GRNDAO {
 
     @Override
     public boolean update(GRN entity) throws Exception {
-        return CrudUtil.executeUpdate("Update grn set supplierOrderID=?, grnDate=?, SupplierPayment=?, status=? where grnID=? ", entity.getSupplierOrderID(), entity.getGrnDate(), entity.getSupplierPayment(), entity.getStatus(), entity.getGrnID()) > 0;
+        return CrudUtil.executeUpdate("Update GRN set supplierOrderID=?, grnDate=?, SupplierPayment=?, status=? where grnID=? ", entity.getSupplierOrderID(), entity.getGrnDate(), entity.getSupplierPayment(), entity.getStatus(), entity.getGrnID()) > 0;
     }
 
     @Override
     public boolean delete(String s) throws Exception {
-        return CrudUtil.executeUpdate("delete from grn where grnID=? ", s) > 0;
+        return CrudUtil.executeUpdate("delete from GRN where grnID=? ", s) > 0;
     }
 
     @Override
@@ -36,7 +36,7 @@ public class GRNDAOImpl implements GRNDAO {
 
     @Override
     public ArrayList<GRN> getAll() throws Exception {
-        ResultSet rst = CrudUtil.executeQuery("Select * from grn");
+        ResultSet rst = CrudUtil.executeQuery("Select * from GRN");
         ArrayList<GRN> grns = new ArrayList<>();
         while (rst.next()) {
             grns.add(new GRN(rst.getString(1), rst.getString(2), rst.getString(3), rst.getDouble(4), rst.getString(5)));

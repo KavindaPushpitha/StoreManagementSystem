@@ -14,7 +14,7 @@
 		</conditionalStyle>
 	</style>
 	<queryString>
-		<![CDATA[select * from customer]]>
+		<![CDATA[select * from Customer]]>
 	</queryString>
 	<field name="CustomerID" class="java.lang.String">
 		<property name="com.jaspersoft.studio.field.label" value="CustomerID"/>

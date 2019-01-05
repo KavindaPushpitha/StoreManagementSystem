@@ -102,7 +102,7 @@ public class SupplierDetailController implements Initializable {
     private void setSupplierID() {
         try {
             String supplierID;
-            supplierID = IDGenerator.getNewID("supplier", "supplierID", "S");
+            supplierID = IDGenerator.getNewID("Supplier", "supplierID", "S");
             txtSupplierID.setText(supplierID);
         } catch (Exception ex) {
             ex.printStackTrace();

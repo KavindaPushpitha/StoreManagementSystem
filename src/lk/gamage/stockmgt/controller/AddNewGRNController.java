@@ -138,7 +138,7 @@ public class AddNewGRNController implements Initializable {
     private void setGRNID() {
         try {
             String grnID;
-            grnID = IDGenerator.getNewID("grn", "grnID", "G");
+            grnID = IDGenerator.getNewID("GRN", "grnID", "G");
             txtGRNID.setText(grnID);
         } catch (Exception ex) {
             ex.printStackTrace();

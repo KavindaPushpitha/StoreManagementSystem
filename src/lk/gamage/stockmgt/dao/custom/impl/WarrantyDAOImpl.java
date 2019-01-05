@@ -11,12 +11,12 @@ import java.util.ArrayList;
 public class WarrantyDAOImpl implements WarrantyDAO {
     @Override
     public boolean save(Warranty entity) throws Exception {
-        return CrudUtil.executeUpdate("INSERT INTO WARRANTY VALUES(?,?,?,?) ", entity.getWarrantyID(), entity.getWarrantyPeriod(), entity.getWarrantyFrom(), entity.getWarrantyTo()) > 0;
+        return CrudUtil.executeUpdate("INSERT INTO Warranty VALUES(?,?,?,?) ", entity.getWarrantyID(), entity.getWarrantyPeriod(), entity.getWarrantyFrom(), entity.getWarrantyTo()) > 0;
     }
 
     @Override
     public boolean update(Warranty entity) throws Exception {
-        return CrudUtil.executeUpdate("Update warranty Set warrantyPeriod=?,warrantyFrom=?,warrantyTo=? where warrantyID=? ", entity.getWarrantyPeriod(), entity.getWarrantyFrom(), entity.getWarrantyTo(), entity.getWarrantyID()) > 0;
+        return CrudUtil.executeUpdate("Update Warranty Set warrantyPeriod=?,warrantyFrom=?,warrantyTo=? where warrantyID=? ", entity.getWarrantyPeriod(), entity.getWarrantyFrom(), entity.getWarrantyTo(), entity.getWarrantyID()) > 0;
     }
 
     @Override
@@ -36,7 +36,7 @@ public class WarrantyDAOImpl implements WarrantyDAO {
 
     @Override
     public String getWarrantyID() throws Exception {
-        ResultSet rst = CrudUtil.executeQuery("Select warrantyID from warranty order by 1 desc limit 1");
+        ResultSet rst = CrudUtil.executeQuery("Select warrantyID from Warranty order by 1 desc limit 1");
         if (rst.next()) {
             return rst.getString(1);
         } else {

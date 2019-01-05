@@ -407,7 +407,7 @@ public class DamageItemController implements Initializable {
     private void setDamageID() {
         try {
             String damageID;
-            damageID = IDGenerator.getNewID("damageItem", "damageID", "D");
+            damageID = IDGenerator.getNewID("DamageItem", "damageID", "D");
             txtDamageID.setText(damageID);
         } catch (Exception ex) {
             ex.printStackTrace();

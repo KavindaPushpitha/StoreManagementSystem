@@ -138,7 +138,7 @@ public class SupplierOrderController implements Initializable {
     private void setSupplierOrderID() {
         try {
             String supplierOrderID;
-            supplierOrderID = IDGenerator.getNewID("supplierOrders", "supplierOrderID", "V");
+            supplierOrderID = IDGenerator.getNewID("SupplierOrders", "supplierOrderID", "V");
             txtSupplierOrderID.setText(supplierOrderID);
         } catch (Exception ex) {
             ex.printStackTrace();

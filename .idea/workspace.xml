@@ -6,12 +6,49 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="initialCommit">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/31e96370-6ffd-45b5-b4a0-b6f217e2eda5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/31e96370-6ffd-45b5-b4a0-b6f217e2eda5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Error.log" beforeDir="false" afterPath="$PROJECT_DIR$/Error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NewGamage/lk/gamage/stockmgt/business/custom/impl/CustomerOrdersBOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NewGamage/lk/gamage/stockmgt/business/custom/impl/CustomerOrdersBOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NewGamage/lk/gamage/stockmgt/business/custom/impl/GRNBOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NewGamage/lk/gamage/stockmgt/business/custom/impl/GRNBOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NewGamage/lk/gamage/stockmgt/business/custom/impl/GRNDetailBOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NewGamage/lk/gamage/stockmgt/business/custom/impl/GRNDetailBOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NewGamage/lk/gamage/stockmgt/business/custom/impl/StockBOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NewGamage/lk/gamage/stockmgt/business/custom/impl/StockBOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NewGamage/lk/gamage/stockmgt/business/custom/impl/SupplierOrderBOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NewGamage/lk/gamage/stockmgt/business/custom/impl/SupplierOrderBOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NewGamage/lk/gamage/stockmgt/common/PasswordUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NewGamage/lk/gamage/stockmgt/common/PasswordUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/AddNewGRNController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/AddNewGRNController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/DamageItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/DamageItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/ReportsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/ReportsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/ReturnItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/ReturnItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/StockBackDoorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/StockBackDoorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/SupplierDetailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/SupplierDetailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/SupplierOrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/SupplierOrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/WarrantyManageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/WarrantyManageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/CustomerDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/CustomerDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/CustomerOrdersDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/CustomerOrdersDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/DamageItemDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/DamageItemDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/GRNDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/GRNDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/GRNDetailDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/GRNDetailDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/ItemsDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/ItemsDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/LoginDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/LoginDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/OrderDetailDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/OrderDetailDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/QueryDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/QueryDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/ReturnItemDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/ReturnItemDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/StockDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/StockDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/SupplierDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/SupplierDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/SupplierOrderDetailDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/SupplierOrderDetailDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/SupplierOrdersDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/SupplierOrdersDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/WarrantyDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/WarrantyDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/gamage/stockmgt/reports/CustomerList.jrxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/gamage/stockmgt/reports/CustomerList.jrxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lk/gamage/stockmgt/view/StockBackDoor.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/lk/gamage/stockmgt/view/StockBackDoor.fxml" afterDir="false" />
+    </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,97 +119,178 @@
     <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-912166708">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="47" />
+          <entry key="jrxml" value="2" />
+          <entry key="properties" value="3" />
+          <entry key="sql" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="47" />
+          <entry key="Properties" value="3" />
+          <entry key="SQL" value="1" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="131" />
+          <entry key="jrxml" value="1" />
+          <entry key="properties" value="8" />
+          <entry key="txt" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="131" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="Properties" value="8" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-2099587472">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="fxml" value="1" />
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DashBoardController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/DashBoardController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/ReportsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5423">
-              <caret line="355" column="9" selection-start-line="345" selection-start-column="8" selection-end-line="355" selection-end-column="9" />
+            <state relative-caret-position="15">
+              <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CrudUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/CrudUtil.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/ReturnItemController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+            <state relative-caret-position="73">
+              <caret line="125" column="46" selection-start-line="125" selection-start-column="46" selection-end-line="125" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ManageCustomerController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/ManageCustomerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1819">
-              <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DAOFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/DAOFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IdController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/common/IdController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddNewAccountController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/AddNewAccountController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddNewGRNController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/AddNewGRNController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddWarrantyController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/AddWarrantyController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DamageItemController.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/DamageItemController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1836">
-              <caret line="145" column="26" selection-start-line="145" selection-start-column="26" selection-end-line="145" selection-end-column="26" />
+            <state relative-caret-position="216">
+              <caret line="409" column="46" selection-start-line="409" selection-start-column="46" selection-end-line="409" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomerOrderController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/CustomerOrderController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/SupplierDetailController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2074">
-              <caret line="163" column="22" selection-start-line="163" selection-start-column="22" selection-end-line="163" selection-end-column="22" />
+            <state relative-caret-position="112">
+              <caret line="104" column="48" selection-start-line="104" selection-start-column="48" selection-end-line="104" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/AddNewGRNController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="140" column="45" selection-start-line="140" selection-start-column="45" selection-end-line="140" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/QueryDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="25" column="129" selection-start-line="25" selection-start-column="129" selection-end-line="25" selection-end-column="129" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/WarrantyManageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="237" column="143" lean-forward="true" selection-start-line="237" selection-start-column="143" selection-end-line="237" selection-end-column="143" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/ViewCustomerOrdersController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="89" selection-start-line="89" selection-end-line="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/business/custom/impl/CustomerBOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/reports/CustomerOrderList.jrxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2790">
+              <caret line="186" column="86" lean-forward="true" selection-start-line="186" selection-start-column="86" selection-end-line="186" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -203,19 +321,12 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/entity/DamageItem.java" />
-        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/entity/GRNDetail.java" />
-        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/entity/OrderDetail.java" />
-        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/entity/Stock.java" />
-        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/entity/Supplier.java" />
-        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/entity/SupplierOrderDetail.java" />
-        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/entity/SupplierOrderDetail_PK.java" />
-        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/entity/SupplierOrders.java" />
-        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/entity/Warranty.java" />
-        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/main/Main.java" />
         <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/business/custom/impl/DamageItemBOImpl.java" />
         <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/business/custom/impl/GRNBOImpl.java" />
         <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/business/custom/impl/GRNDetailBOImpl.java" />
@@ -228,20 +339,6 @@
         <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/business/custom/LoginBO.java" />
         <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/business/custom/StockBO.java" />
         <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/business/BOFactory.java" />
-        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/CustomerDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/CustomerOrdersDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/DamageItemDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/GRNDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/GRNDetailDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/ItemsDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/OrderDetailDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/QueryDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/ReturnItemDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/SupplierDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/StockDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/SupplierOrderDetailDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/SupplierOrdersDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/WarrantyDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/CustomerDAO.java" />
         <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/CustomerOrdersDAO.java" />
         <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/DamageItemDAO.java" />
@@ -255,8 +352,32 @@
         <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/SupplierDAO.java" />
         <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/SupplierOrderDetailDAO.java" />
         <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/SupplierOrdersDAO.java" />
+        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/AddCustomerController.java" />
         <option value="$PROJECT_DIR$/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/LoginDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/ItemsDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/StockDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/CustomerDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/CustomerOrdersDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/DamageItemDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/GRNDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/GRNDetailDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/OrderDetailDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/ReturnItemDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/SupplierDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/SupplierOrderDetailDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/SupplierOrdersDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/WarrantyDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/StockBackDoorController.java" />
+        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/SupplierOrderController.java" />
+        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/reports/CustomerList.jrxml" />
+        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/ReportsController.java" />
+        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/ReturnItemController.java" />
+        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/DamageItemController.java" />
+        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/SupplierDetailController.java" />
+        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/AddNewGRNController.java" />
+        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/QueryDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/WarrantyManageController.java" />
       </list>
     </option>
   </component>
@@ -272,16 +393,12 @@
       <select />
     </treeState>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="243" />
-    <option name="y" value="27" />
-    <option name="width" value="569" />
-    <option name="height" value="589" />
+    <option name="y" value="32" />
+    <option name="width" value="1910" />
+    <option name="height" value="786" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -291,14 +408,17 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="NewGamage" type="b2602c69:ProjectViewProjectNode" />
               <item name="NewGamage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewGamage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewGamage" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NewGamage" type="b2602c69:ProjectViewProjectNode" />
@@ -310,6 +430,21 @@
               <item name="NewGamage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="stockmgt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewGamage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewGamage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="stockmgt" type="462c0819:PsiDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewGamage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewGamage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="stockmgt" type="462c0819:PsiDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NewGamage" type="b2602c69:ProjectViewProjectNode" />
@@ -337,6 +472,23 @@
               <item name="NewGamage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="stockmgt" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewGamage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewGamage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="stockmgt" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewGamage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewGamage" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="stockmgt" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -344,18 +496,13 @@
               <item name="NewGamage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="stockmgt" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewGamage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewGamage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -373,10 +520,11 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/Intelij/NewGamage/src/lk/gamage/stockmgt/controller/CustomerOrderController.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544245596504" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/New folder/Short Message Service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -405,89 +553,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="NewGamage" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="NIC_Details" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sample.NIC_Details" />
-      <module name="NewGamage" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sample.Test" />
-      <module name="NewGamage" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Unnamed" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="lk.ijse.gamage.main.Main" />
-      <module name="NewGamage" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="lk.ijse.gamage.main.Main" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -499,6 +564,92 @@
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="NewGamage" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NIC_Details" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.NIC_Details" />
+      <module name="NewGamage" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.Test" />
+      <module name="NewGamage" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="lk.ijse.gamage.main.Main" />
+      <module name="NewGamage" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="lk.ijse.gamage.main.Main" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
@@ -618,11 +769,24 @@
       <workItem from="1537456874644" duration="2263000" />
       <workItem from="1537465922707" duration="936000" />
       <workItem from="1537497885508" duration="33000" />
+      <workItem from="1542453223722" duration="3258000" />
+      <workItem from="1542521827342" duration="2593000" />
+      <workItem from="1542698798369" duration="3841000" />
+      <workItem from="1542856269334" duration="851000" />
+      <workItem from="1542979214982" duration="1820000" />
+      <workItem from="1544245180642" duration="524000" />
+      <workItem from="1544506701254" duration="91000" />
+      <workItem from="1545581090238" duration="1937000" />
+      <workItem from="1545837368772" duration="2125000" />
+      <workItem from="1545878387255" duration="205000" />
+      <workItem from="1545894231777" duration="626000" />
+      <workItem from="1546003886333" duration="599000" />
+      <workItem from="1546664691743" duration="7396000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="689143000" />
+    <option name="totallyTimeSpent" value="715009000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -634,43 +798,43 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="0" y="32" width="1920" height="1048" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info id="Image Layers" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067115" side_tool="true" weight="0.2022792" />
-      <window_info anchor="right" id="Maven Projects" order="4" weight="0.3295302" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.6375199" />
-      <window_info anchor="bottom" id="Terminal" order="14" weight="0.32905984" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.23959732" />
-      <window_info active="true" anchor="right" id="Database" order="9" visible="true" weight="0.13892618" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.11099253" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.3295302" />
+      <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
-      <window_info anchor="right" id="JetGradle" order="5" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.33987603" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="SQL Generator" order="16" show_stripe_button="false" weight="0.32905984" />
-      <window_info anchor="bottom" id="Database Console" order="16" weight="0.32905984" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info anchor="bottom" id="Changes" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.32785088" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
+      <window_info anchor="bottom" id="Changes" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067115" side_tool="true" weight="0.2022792" />
       <window_info anchor="bottom" id="Profiler" order="9" />
       <window_info anchor="bottom" id="Problems" order="10" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Application Servers" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.32905984" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.33987603" />
+      <window_info anchor="bottom" id="Database Console" order="16" weight="0.32905984" />
+      <window_info anchor="bottom" id="SQL Generator" order="17" show_stripe_button="false" weight="0.32905984" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.3295302" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.3295302" />
+      <window_info anchor="right" id="JetGradle" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Database" order="9" weight="0.1388584" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -682,276 +846,14 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="5" />
-    </breakpoint-manager>
+    <MESSAGE value="initialCommit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initialCommit" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/business/custom/WarrantyBO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/business/BOFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/CustomerOrdersDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/DamageItemDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/GRNDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/GRNDetailDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/ItemsDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/OrderDetailDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/QueryDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/ReturnItemDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/SupplierDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/StockDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/SupplierOrderDetailDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/SupplierOrdersDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/WarrantyDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/CustomerDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/CustomerOrdersDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/DamageItemDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/GRNDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/GRNDetailDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/ItemsDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/LoginDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/OrderDetailDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/QueryDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/ReturnItemDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/StockDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/SupplierDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/SupplierOrderDetailDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/SupplierOrdersDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/WarrantyDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/LoginDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/db/GamageStockMgt System DBScript.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/business/SuperBO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/business/custom/CustomerBO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" selection-start-line="9" selection-start-column="4" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/SuperDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/CustomerDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -966,87 +868,346 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/db/DBConnection.java">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="41" column="5" selection-start-line="12" selection-start-column="3" selection-end-line="41" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/CrudDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" selection-start-line="6" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/CrudUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/DamageItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="145" column="26" selection-start-line="145" selection-start-column="26" selection-end-line="145" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/CustomerOrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2074">
-          <caret line="163" column="22" selection-start-line="163" selection-start-column="22" selection-end-line="163" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/common/IdController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/AddNewAccountController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/AddNewGRNController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/AddWarrantyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="296">
+          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/DashBoardController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5423">
-          <caret line="355" column="9" selection-start-line="345" selection-start-column="8" selection-end-line="355" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/DAOFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+        <state relative-caret-position="6375">
+          <caret line="463" selection-start-line="463" selection-end-line="463" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/ManageCustomerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1819">
+        <state relative-caret-position="195">
           <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/DAOFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/AddWarrantyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/CrudDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" selection-start-line="6" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/QueryDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/business/custom/impl/StockBOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/view/Login.fxml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/CrudUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/AddNewAccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="118" column="41" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/business/BOFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/common/IDGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/common/Validation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/CustomerOrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6795">
+          <caret line="504" column="43" selection-start-line="504" selection-start-column="43" selection-end-line="504" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/common/PasswordUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/db/GamageStockMgt System DBScript.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="157" lean-forward="true" selection-start-line="10" selection-end-line="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newgamage.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/db/DBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <folding>
+            <element signature="e#1173#1174#0" expanded="true" />
+            <element signature="e#1206#1207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/CustomerDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="55" column="70" selection-start-line="55" selection-start-column="70" selection-end-line="55" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/CustomerOrdersDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="32" column="75" selection-start-line="32" selection-start-column="75" selection-end-line="32" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/DamageItemDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/GRNDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="48" column="89" lean-forward="true" selection-start-line="48" selection-start-column="89" selection-end-line="48" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/GRNDetailDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="54" column="70" selection-start-line="54" selection-start-column="70" selection-end-line="54" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/ItemsDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/LoginDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="37" column="69" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/OrderDetailDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/ReturnItemDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/StockDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/SupplierDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="37" column="69" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/SupplierOrderDetailDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/SupplierOrdersDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="35" column="75" selection-start-line="35" selection-start-column="75" selection-end-line="35" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/WarrantyDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="38" column="78" selection-start-line="38" selection-start-column="78" selection-end-line="38" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/AddCustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="95" column="57" selection-start-line="95" selection-start-column="57" selection-end-line="95" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/StockBackDoorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="213" column="43" selection-start-line="213" selection-start-column="43" selection-end-line="213" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/common/IdController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/SupplierOrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="140" column="53" selection-start-line="140" selection-start-column="53" selection-end-line="140" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/reports/CustomerList.jrxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="12" lean-forward="true" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/reports/CustomerOrderList.jrxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2790">
+          <caret line="186" column="86" lean-forward="true" selection-start-line="186" selection-start-column="86" selection-end-line="186" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/ReportsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/ReturnItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="125" column="46" selection-start-line="125" selection-start-column="46" selection-end-line="125" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/DamageItemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="409" column="46" selection-start-line="409" selection-start-column="46" selection-end-line="409" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/SupplierDetailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="104" column="48" selection-start-line="104" selection-start-column="48" selection-end-line="104" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/AddNewGRNController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="140" column="45" selection-start-line="140" selection-start-column="45" selection-end-line="140" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/dao/custom/impl/QueryDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="25" column="129" selection-start-line="25" selection-start-column="129" selection-end-line="25" selection-end-column="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/ViewCustomerOrdersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/business/custom/impl/CustomerBOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lk/gamage/stockmgt/controller/WarrantyManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="237" column="143" lean-forward="true" selection-start-line="237" selection-start-column="143" selection-end-line="237" selection-end-column="143" />
         </state>
       </provider>
     </entry>

@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class OrderDetailDAOImpl implements OrderDetailDAO {
     @Override
     public boolean save(OrderDetail entity) throws Exception {
-        return CrudUtil.executeUpdate("INSERT INTO ORDERDETAIL VALUES(?,?,?,?,?) ", entity.getOrderDetail_pk().getOrderID(), entity.getOrderDetail_pk().getItemCode(), entity.getWarrantyID(), entity.getUnitPrice(), entity.getOrderQty()) > 0;
+        return CrudUtil.executeUpdate("INSERT INTO OrderDetail VALUES(?,?,?,?,?) ", entity.getOrderDetail_pk().getOrderID(), entity.getOrderDetail_pk().getItemCode(), entity.getWarrantyID(), entity.getUnitPrice(), entity.getOrderQty()) > 0;
     }
 
     @Override

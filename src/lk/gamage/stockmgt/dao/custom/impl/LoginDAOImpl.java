@@ -10,12 +10,12 @@ import java.util.ArrayList;
 public class LoginDAOImpl implements LoginDAO {
     @Override
     public boolean save(UserAccount entity) throws Exception {
-        return CrudUtil.executeUpdate("Insert into userAccount values(?,?,?,?) ", entity.getUserID(), entity.getUserName(), entity.getPassword(), entity.getSaultValue()) > 0;
+        return CrudUtil.executeUpdate("Insert into UserAccount values(?,?,?,?) ", entity.getUserID(), entity.getUserName(), entity.getPassword(), entity.getSaultValue()) > 0;
     }
 
     @Override
     public boolean update(UserAccount entity) throws Exception {
-        return CrudUtil.executeUpdate("Update userAccount set userName=?,password=?,saltValue=? where userID=? ", entity.getUserName(), entity.getPassword(), entity.getSaultValue(), entity.getUserID()) > 0;
+        return CrudUtil.executeUpdate("Update UserAccount set userName=?,password=?,saltValue=? where userID=? ", entity.getUserName(), entity.getPassword(), entity.getSaultValue(), entity.getUserID()) > 0;
     }
 
     @Override

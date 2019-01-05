@@ -8,19 +8,19 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="stockRoot" prefHeight="723.0" prefWidth="991.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.gamage.stockmgt.controller.StockBackDoorController">
+<AnchorPane fx:id="stockRoot" prefHeight="723.0" prefWidth="991.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.gamage.stockmgt.controller.StockBackDoorController">
    <children>
       <Label layoutX="59.0" layoutY="42.0" text="Stock Back Door" textFill="#22313f">
          <font>
             <Font name="Century Gothic" size="21.0" />
          </font>
       </Label>
-      <JFXButton fx:id="btnDelete" layoutX="63.0" layoutY="668.0" onAction="#deleteRow" prefHeight="34.0" prefWidth="103.0" styleClass="bluebuttons" stylesheets="@../css/ForBlueButtons.css" text="Delete" textFill="#fffbfb">
+      <JFXButton fx:id="btnDelete" buttonType="RAISED" layoutX="63.0" layoutY="668.0" onAction="#deleteRow" prefHeight="34.0" prefWidth="103.0" styleClass="bluebuttons" stylesheets="@../css/ForBlueButtons.css" text="Delete" textFill="#fffbfb">
          <font>
             <Font name="NEOTERIC" size="12.0" />
          </font>
       </JFXButton>
-      <JFXButton fx:id="btnAddToTable" layoutX="834.0" layoutY="253.0" onAction="#loadToTable" prefHeight="34.0" prefWidth="103.0" styleClass="greenbuttons" stylesheets="@../css/ForBlueButtons.css" text="Add To table" textFill="#fffbfb">
+      <JFXButton fx:id="btnAddToTable" buttonType="RAISED" layoutX="834.0" layoutY="253.0" onAction="#loadToTable" prefHeight="34.0" prefWidth="103.0" styleClass="greenbuttons" stylesheets="@../css/ForBlueButtons.css" text="Add To table" textFill="#fffbfb">
          <font>
             <Font name="NEOTERIC" size="12.0" />
          </font>
@@ -43,17 +43,17 @@
       <JFXTextField fx:id="txtModel" disable="true" focusColor="#31bd3d" labelFloat="true" layoutX="246.0" layoutY="177.0" prefHeight="26.0" prefWidth="150.0" promptText="Model No" />
       <JFXTextField fx:id="txtSellingPrice" focusColor="#31bd3d" labelFloat="true" layoutX="437.0" layoutY="177.0" onAction="#focusToOty" prefHeight="26.0" prefWidth="218.0" promptText="Selling Price" />
       <JFXTextField fx:id="txtQtyOnHand" focusColor="#31bd3d" labelFloat="true" layoutX="679.0" layoutY="177.0" onAction="#loadToTable" prefHeight="26.0" prefWidth="250.0" promptText="Qty On Hand" />
-      <JFXButton fx:id="btnCloseBackDoor" layoutX="574.0" layoutY="668.0" onAction="#disableBackDoor" prefHeight="34.0" prefWidth="158.0" styleClass="greenbuttons" stylesheets="@../css/ForBlueButtons.css" text="Close the BackDoor" textFill="#fffbfb">
+      <JFXButton fx:id="btnCloseBackDoor" buttonType="RAISED" layoutX="574.0" layoutY="668.0" onAction="#disableBackDoor" prefHeight="34.0" prefWidth="158.0" styleClass="greenbuttons" stylesheets="@../css/ForBlueButtons.css" text="Close the BackDoor" textFill="#fffbfb">
          <font>
             <Font name="NEOTERIC" size="12.0" />
          </font>
       </JFXButton>
-      <JFXButton fx:id="btnAddNewItem" layoutX="689.0" layoutY="253.0" onAction="#loadItemMgt" prefHeight="34.0" prefWidth="114.0" styleClass="greenbuttons" stylesheets="@../css/ForBlueButtons.css" text="Add New Item" textFill="#fffbfb">
+      <JFXButton fx:id="btnAddNewItem" buttonType="RAISED" layoutX="689.0" layoutY="253.0" onAction="#loadItemMgt" prefHeight="34.0" prefWidth="114.0" styleClass="greenbuttons" stylesheets="@../css/ForBlueButtons.css" text="Add New Item" textFill="#fffbfb">
          <font>
             <Font name="NEOTERIC" size="12.0" />
          </font>
       </JFXButton>
-      <JFXButton fx:id="btnSave" layoutX="769.0" layoutY="668.0" onAction="#saveItems" prefHeight="34.0" prefWidth="167.0" styleClass="greenbuttons" stylesheets="@../css/ForBlueButtons.css" text="Continue" textFill="#fffbfb">
+      <JFXButton fx:id="btnSave" buttonType="RAISED" layoutX="769.0" layoutY="668.0" onAction="#saveItems" prefHeight="34.0" prefWidth="167.0" styleClass="greenbuttons" stylesheets="@../css/ForBlueButtons.css" text="Continue" textFill="#fffbfb">
          <font>
             <Font name="NEOTERIC" size="12.0" />
          </font>

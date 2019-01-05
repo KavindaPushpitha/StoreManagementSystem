@@ -123,7 +123,7 @@ public class ReturnItemController implements Initializable {
     private void setReturnID() {
         try {
             String returnID;
-            returnID = IDGenerator.getNewID("returnItem", "returnID", "R");
+            returnID = IDGenerator.getNewID("ReturnItem", "returnID", "R");
             txtReturnID.setText(returnID);
         } catch (Exception ex) {
             ex.printStackTrace();

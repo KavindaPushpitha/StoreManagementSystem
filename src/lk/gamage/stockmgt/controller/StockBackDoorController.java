@@ -30,6 +30,7 @@ import lk.gamage.stockmgt.business.custom.StockBO;
 import lk.gamage.stockmgt.business.custom.impl.ItemBOImpl;
 import lk.gamage.stockmgt.business.custom.impl.StockBOImpl;
 import lk.gamage.stockmgt.common.IDGenerator;
+import lk.gamage.stockmgt.common.IdController;
 import lk.gamage.stockmgt.common.Validation;
 import lk.gamage.stockmgt.model.ItemDTO;
 import lk.gamage.stockmgt.model.StockBackDoorCloseDTO;
@@ -106,11 +107,18 @@ public class StockBackDoorController implements Initializable {
         tblStock.getColumns().get(6).setCellValueFactory(new PropertyValueFactory<>("qtyOnHand"));
         getAllItems();
         loadItemNames();
-        setStockID();
+        getStockID();
         txtStockID.requestFocus();
 
     }
-
+    private void getStockID(){
+        try {
+            String newID = IDGenerator.getNewID("Stock", "StockID", "T");
+            txtStockID.setText(newID);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 
     void getAllItems() {
         try {
@@ -203,7 +211,7 @@ public class StockBackDoorController implements Initializable {
     void loadToTable(ActionEvent event) {
         ArrayList<StockDTO> rows = new ArrayList<>();
         if (Validation.idValidation(txtStockID.getText(), "Tt")) {
-            if (Validation.nameValidate(txtItemName.getText())) {
+            if (Validation.addressValidate(txtItemName.getText())) {
                 if (Validation.cashValidation(txtSellingPrice.getText())) {
                     if (Validation.orderQty(txtQtyOnHand.getText())) {
                         if (txtStockID.getText().isEmpty() || txtItemName.getText().isEmpty() || txtSellingPrice.getText().isEmpty() || txtQtyOnHand.getText().isEmpty()) {
@@ -227,7 +235,7 @@ public class StockBackDoorController implements Initializable {
                                 txtItemName.requestFocus();
                                 clearTextFileds();
                                 ++i;
-                                txtStockID.setText("T00" + i);
+                                getStockID();
                                 lblNotify.setText("");
                             } else {
                                 txtQtyOnHand.requestFocus();
@@ -286,6 +294,7 @@ public class StockBackDoorController implements Initializable {
                     Notifications notificationsn = Notifications.create().title("Stock BackDoor").text("New Stock is added to the system !").hideAfter(Duration.seconds(3)).position(Pos.BOTTOM_RIGHT);
                     notificationsn.darkStyle();
                     notificationsn.showInformation();
+                    getStockID();
                 }
             } catch (Exception e) {
                 e.printStackTrace();
@@ -331,21 +340,21 @@ public class StockBackDoorController implements Initializable {
         //DashBoardController dashBoardController=new DashBoardController();
         //dashBoardController.btnStockBackDoor.setDisable(true);
     }
-
-    void setStockID() {
-        try {
-            String allStockID = stockBO.getAllStockID();
-            if (allStockID != null) {
-                i = Integer.parseInt(allStockID.substring(3, 4));
-                ++i;
-                txtStockID.setText("T00" + i);
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-            Logger.getLogger(StockBackDoorController.class.getName()).log(Level.SEVERE, null, e);
-        }
-
-    }
+//
+//    void setStockID() {
+//        try {
+//            String allStockID = stockBO.getAllStockID();
+//            if (allStockID != null) {
+//                i = Integer.parseInt(allStockID.substring(3, 4));
+//                ++i;
+//                txtStockID.setText("T00" + i);
+//            }
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//            Logger.getLogger(StockBackDoorController.class.getName()).log(Level.SEVERE, null, e);
+//        }
+//
+//    }
 
     public static boolean isIsClicked() {
         return isClicked;

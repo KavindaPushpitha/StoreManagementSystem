@@ -30,7 +30,7 @@ public class CustomerDAOImpl implements CustomerDAO {
     public Customer search(String s) throws Exception {
         Connection connection = DBConnection.getInstance().getConnection();
         Statement stm = connection.createStatement();
-        final ResultSet rst = stm.executeQuery("SELECT * FROM customer WHERE CustomerName like'%" + s + "%'");
+        final ResultSet rst = stm.executeQuery("SELECT * FROM Customer WHERE CustomerName like'%" + s + "%'");
 //       ResultSet rst = CrudUtil.executeQuery("SELECT * FROM customer WHERE fName like'?'", s);
         if (rst.next()) {
             return new Customer(rst.getString(1), rst.getString(2), rst.getString(3), rst.getString(4), rst.getString(5), rst.getString(6));
@@ -53,7 +53,7 @@ public class CustomerDAOImpl implements CustomerDAO {
     public Customer searchByNIC(String s) throws Exception {
         Connection connection = DBConnection.getInstance().getConnection();
         Statement stm = connection.createStatement();
-        final ResultSet rst = stm.executeQuery("SELECT * FROM customer WHERE NIC like'%" + s + "%'");
+        final ResultSet rst = stm.executeQuery("SELECT * FROM Customer WHERE NIC like'%" + s + "%'");
 //       ResultSet rst = CrudUtil.executeQuery("SELECT * FROM customer WHERE fName like'?'", s);
         if (rst.next()) {
             return new Customer(rst.getString(1), rst.getString(2), rst.getString(3), rst.getString(4), rst.getString(5), rst.getString(6));
